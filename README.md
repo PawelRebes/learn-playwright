@@ -32,7 +32,15 @@ Each test includes proper assertions, screenshots on failure, and an HTML report
 
 - Node.js 18+
 - NPM
+- Playwright
+- dotenv (for loading environment variables)
 - A desktop environment (if running tests in headed mode)
+
+## Environment variables
+
+To run the tests, create a `.env` file in the root of the project with the following content:
+```USERNAME=tomsmith
+PASSWORD=SuperSecretPassword!```
 
 ## Debugging
 

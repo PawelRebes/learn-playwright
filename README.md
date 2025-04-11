@@ -39,8 +39,9 @@ Each test includes proper assertions, screenshots on failure, and an HTML report
 ## Environment variables
 
 To run the tests, create a `.env` file in the root of the project with the following content:
-```USERNAME=tomsmith
-PASSWORD=SuperSecretPassword!```
+
+<pre>USERNAME=tomsmith
+PASSWORD=SuperSecretPassword!</pre>
 
 ## Debugging
 
